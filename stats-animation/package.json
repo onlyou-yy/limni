@@ -1,7 +1,8 @@
 {
-    "name": "limni-stats-animation",
-    "scripts": {
-        "serve": "npx ../node_modules/.bin/vue-cli-service serve ./main.js",
-        "build": "npx ../node_modules/.bin/vue-cli-service build --dest ../dist/stats-animation ./main.js"
-    }
+  "name": "limni-stats-animation",
+  "scripts": {
+    "serve": "npx ../node_modules/.bin/vue-cli-service serve ./main.js",
+    "dev": "node ../node_modules/@vue/cli-service/bin/vue-cli-service serve ./main.js",
+    "build": "npx ../node_modules/.bin/vue-cli-service build --dest ../dist/stats-animation ./main.js"
+  }
 }
